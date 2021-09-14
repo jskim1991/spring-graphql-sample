@@ -1,0 +1,10 @@
+mutation {
+    updateDepartmentName(id: 1, name: "DevOps") {
+        id
+        name
+        employees {
+            id
+            name
+        }
+    }
+}
