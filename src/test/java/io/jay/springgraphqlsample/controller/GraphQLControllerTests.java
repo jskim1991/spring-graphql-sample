@@ -29,7 +29,7 @@ public class GraphQLControllerTests {
 
     @MockBean
     private EmployeeService mockEmployeeService;
-    
+
     @MockBean
     private DepartmentService mockDepartmentService;
 
